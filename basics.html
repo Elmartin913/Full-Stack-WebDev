@@ -5,65 +5,26 @@
     <title>This is the Title</title>
 </head>
 <body>
-    <h1>Hotel Feedback Form</h1>
+    <h1>Course Sign Up Page</h1>
+    <h3>Please Note. First name, Last name, Password, and Email are required</h3>
     <form action="#" method="get">
-        <h3>Are you form inside the US?</h3>
-        <label for="inusa">Inside:</label>
-        <input type="radio" id="inusa" name="loc" value="inside">
-        <label for="outusa">Outside:</label>
-        <input type="radio" id="outusa" name="loc" value="outside">
-
-        <h2>How was your service?</h2>
-
-        <select name="stars" id="">
-            <option value="Greate">3</option>
-            <option value="OK">2</option>
-            <option value="Bad">1</option>
+        <label>First name:<input type="text" name="firstname" placeholder="First Name"></label>
+        <label>Last name:<input type="text" name="lastname" placeholder="Last Name"></label>
+        <p></p>
+        <label>Email:<input type="email" name="email" placeholder="email" required></label>
+        <label>Last name:<input type="password" name="password" placeholder="Password"></label>
+        <h3>Are you ower 18?</h3>
+        <label for="y">Yes</label>
+        <input id="y" type="radio" name="age" value="Yes">
+        <label for="n">No</label>
+        <input id="n" type="radio" name="age" value="No">
+        <h2>Do you have cradit card or paypal</h2>
+        <select name="card" id="">
+            <option value="credit">Credit Card</option>
+            <option value="paypal">PayPal</option>
         </select>
-
-        <h2>Any other feedback?</h2>
-        <textarea name="mytext" id="" cols="30" rows="10"></textarea>
-
-        <input type="submit">
+        <p></p>
+        <input type="submit" value="Submit">
     </form>
-
-
-
-<p></p>
-    <hr>
-<p></p>
-    <form action="#" method="GET">
-        <h1>Log In</h1>
-        <h2>Please Input your Email and Password</h2>
-        <label for="inp">Emal
-        <input id="inp" type="email" name="useremail" value="" required></label>
-        <label >Password
-        <input type="password" name="password" value=""></label>
-        <input type="submit" name="" value="Click Me">
-
-    </form>
-<p></p>
-    <table border="1">
-        <thead>
-            <th>Country Name</th>
-            <th>Country Flag</th>
-            <th>GDP</th>
-        </thead>
-        <tr>
-            <td>USA</td>
-            <td><img src="" alt="">Flag1</td>
-            <td>18 561 930</td>
-        </tr>
-        <tr>
-            <td>India</td>
-            <td><img src="" alt="">Flag2</td>
-            <td>2 250 990</td>
-        </tr>
-        <tr>
-            <td>United Kingdom</td>
-            <td><img src="" alt="">Flag3</td>
-            <td>2 649 890</td>
-        </tr>
-    </table>
 </body>
 </html>
