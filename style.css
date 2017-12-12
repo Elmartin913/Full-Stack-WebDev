@@ -1,4 +1,16 @@
+li{
+    color: red;
+}
 
+.topitems{
+    color: blue;
+}
+
+#two{
+    border: 3px solid black;
+}
+
+/*
 
 h1{
     color: red;
@@ -52,3 +64,4 @@ li a[href="www.ngr.org"]{
     color: blue;
     border: 5px solid orange;
 }
+*/
