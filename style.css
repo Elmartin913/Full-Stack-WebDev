@@ -1,3 +1,5 @@
+
+
 h1{
     color: red;
 }
@@ -15,7 +17,7 @@ h4{
 }
 
 body{
-    background-color: gray;
+    background-color: white;
 }
 
 div{
@@ -23,4 +25,30 @@ div{
     border-color: blue;
     border-width: 2px;
     border-style: dotted;
+}
+
+.firstdiv {
+    coler: blue;
+}
+
+.seconddiv {
+    color:black;
+}
+
+#sing {
+    color:green;
+    text-decoration: line-through;
+}
+
+h3 + ul {
+    border:4px dotted purple;
+}
+
+li a {
+    color:red;
+}
+
+li a[href="www.ngr.org"]{
+    color: blue;
+    border: 5px solid orange;
 }
