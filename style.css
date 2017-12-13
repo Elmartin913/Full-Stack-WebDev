@@ -3,7 +3,7 @@ h1{
 }
 
 p{
-    font-family: cursive;
+    font-family: 'Spectral SC', serif;
 }
 
 body{
@@ -12,6 +12,7 @@ body{
 
 #two2{
     font-size: 2.0em;
+    font-family: "Arial"
 }
 
 p{
