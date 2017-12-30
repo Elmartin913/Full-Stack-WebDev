@@ -1,4 +1,4 @@
-alert("Hello")
+//alert("Hello")
 //var deposit = prompt('How much deposit:');
 //alert('Deposit: '+ deposit);
 //console.log('You are cool porson')
@@ -48,4 +48,48 @@ for (var i = 0; i < 5; i++) {
 var word = 'ABCDEFGHIJK';
 for (var i = 0; i < word.length; i++) {
     console.log(word[i]);
+}
+
+// function
+
+function addNum(num1, num2) {
+    console.log(num1 + num2);
+}
+
+function formal(name='Sam', title='Sir'){
+    return title+ ' '+name
+}
+
+function sleepIn (weekday, vacation){
+    return (!weekday || vacation);
+}
+
+function monkeyTrouble(aSmile, bSmile) {
+    return (aSmile && bSmile) || (!aSmile && !bSmile);
+}
+
+function stringTimes(str, n){
+    var returnStr = '';
+    var i = 0;
+    while (i<n){
+        returnStr += str;
+        i++
+    }
+    return returnStr;
+}
+
+function luckySum(a, b, c){
+    if (a === 13) {
+        return 0;
+    } else if (b === 13) {
+        return a;
+    } else if (c === 13) {
+        return a + b;
+    } else {
+        return a+b+c;
+    }
+}
+
+function makeBricks(small, big, goal) {
+    return goal%5 && goal%5-small && small + 5*big >=goal;
 }
