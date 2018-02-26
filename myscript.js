@@ -93,3 +93,6 @@ function luckySum(a, b, c){
 function makeBricks(small, big, goal) {
     return goal%5 && goal%5-small && small + 5*big >=goal;
 }
+
+// arrays
+
